@@ -21,7 +21,7 @@ function onInput(e) {
 function onSubmit(e) {
   e.preventDefault();
   e.currentTarget.reset();
-  console.log(parseLocalUserData);
+  console.log(TEMP_USER_DATA);
   localStorage.removeItem(LOCAL_USER_DATA);
 }
 
